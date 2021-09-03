@@ -1,0 +1,37 @@
+#imagen {
+	width: 2cm;
+	height: 2cm;
+    margin-top: 0.5cm;
+	margin-left: 17.1cm;
+    position: absolute;
+}
+
+#cuadrado{
+    width: 1cm;
+    height: 1cm;
+    background-color:lightslategray;
+    margin-top: 8.5cm;
+    margin-left: 8cm;
+}
+
+body {
+	background-color: linen;
+}
+
+#botones {
+    margin-left: 14cm;
+}
+
+#izquierdo {
+    height: 1cm;
+    width: 4cm;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#derecho {
+    height: 1cm;
+    width: 4cm;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
