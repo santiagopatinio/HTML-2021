@@ -1,0 +1,38 @@
+<html>
+    <body>
+
+        <script>
+            function cantApariciones(a, n){
+                var resultado = 0;
+                for(var i = 0; i < a.length; i++){
+                    if(a[i] == n){
+                        resultado++;
+                    }
+                }
+                return resultado;
+            }
+
+            function posibleMailValido(a){
+                var resultado = 0;
+                for(var i = 1; i < a.length-1; i++){
+                    if(a[i] == "@"){
+                        resultado = 1;
+                    }
+                }
+                return resultado == 1;
+            }
+
+            function posibleTelefonoValido(a){
+                if(a[0] == "1" && a[1] == "1" && a.length-2 == 8){
+                    return true;
+                }
+                else if(a[0] == "0" && a[1] == "1" && a[2] == "1" && a.length-3 == 8){
+                    return true;
+                }
+                else{
+                    return false;
+                }  
+            }
+        </script>
+    </body>
+</html>
