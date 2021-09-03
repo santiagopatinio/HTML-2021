@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Visual.css">
+    </head>
+
+    <body id="body">
+
+        <p id="p"> Ingrese su nombre</p>
+        <input type="text" id="nombre">
+
+        <p id="p"> Ingrese su apellido</p>
+        <input type="text" id="apellido">
+
+        <p id="p"> Ingrese su edad</p>
+        <input type="number" id="edad">
+        <br>
+
+        <button id="boton" onclick="mostrar()"> Mostrar datos</button>
+
+        <h2 id="cuadro_respuesta_1"></h1>
+        <h2 id="cuadro_respuesta_2"></h1>
+        <h2 id="cuadro_respuesta_3"></h1>
+
+        <script>
+            function mostrar(){
+                var nombre_ingresado = document.getElementById("nombre").value;
+                var apellido_ingresado = document.getElementById("apellido").value;
+                var edad_ingresado = document.getElementById("edad").value;
+                var mensaje_1 = "Mi nombre es " + nombre_ingresado;
+                var mensaje_2 = "Mi apellido es " + apellido_ingresado;
+                var mensaje_3 = "Mi edad es " + edad_ingresado;
+                
+                document.getElementById("cuadro_respuesta_1").innerHTML = mensaje_1;
+                document.getElementById("cuadro_respuesta_1").style.color = "orange";
+
+                document.getElementById("cuadro_respuesta_2").innerHTML = mensaje_2;
+                document.getElementById("cuadro_respuesta_2").style.color = "violet";
+
+                document.getElementById("cuadro_respuesta_3").innerHTML = mensaje_3;
+                document.getElementById("cuadro_respuesta_3").style.color = "white";
+                if(edad_ingresado >= 18){
+                    document.body.style.backgroundColor = "blue";
+                }
+                else{
+                    document.body.style.backgroundColor = "lawngreen";
+                }               
+            }
+
+        </script>
+
+    </body>
+</html>
