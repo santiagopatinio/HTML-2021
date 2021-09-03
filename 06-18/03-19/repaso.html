@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Visual.css">
+        <script src="jquery-3.6.0.js"></script>
+    </head>
+
+    <body id="body">
+
+        <p id="p"> Ingrese su nombre</p>
+        <input type="text" id="nombre">
+
+        <p id="p"> Ingrese su apellido</p>
+        <input type="text" id="apellido">
+
+        <p id="p"> Ingrese su edad</p>
+        <input type="number" id="edad">
+        <br>
+
+        <button id="boton" onclick="mostrar()"> Mostrar datos</button>
+
+        <h2 id="cuadro_respuesta_1"></h1>
+        <h2 id="cuadro_respuesta_2"></h1>
+        <h2 id="cuadro_respuesta_3"></h1>
+
+        <script>
+            function mostrar(){
+                var mensaje_1 = "Mi nombre es " + $("#nombre").val();
+                var mensaje_2 = "Mi apellido es " + $("#apellido").val();
+                var mensaje_3 = "Mi edad es " + $("#edad").val();
+                
+                $("#cuadro_respuesta_1").html(mensaje_1);
+                $("#cuadro_respuesta_1").css("color","orange");
+
+                $("#cuadro_respuesta_2").html(mensaje_2);
+                $("#cuadro_respuesta_2").css("color","violet");
+
+                $("#cuadro_respuesta_3").html(mensaje_3);
+                $("#cuadro_respuesta_3").css("color","black");
+
+                if($("#edad").val() >= 18){
+                    $("#body").css("background-color", "blue");
+                }
+                else{
+                    $("#body").css("background-color", "lawngreen");
+                }               
+            }
+
+        </script>
+
+    </body>
+</html>
