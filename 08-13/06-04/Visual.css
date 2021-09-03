@@ -1,0 +1,26 @@
+/*----botones----*/
+
+#nuevosDatos{
+    margin-left: 620px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#ingresar{
+    margin-left: 643px;
+    visibility: hidden;
+}
+
+/*-----tabla-----*/
+
+th{
+    text-align: center;
+    width: 176px;
+}
+
+td{
+    text-align: center;
+    width: 176px;
+}
+
+
