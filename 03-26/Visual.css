@@ -1,0 +1,42 @@
+#p{
+    font-size: 20;
+    text-align: center;
+}
+
+#valor_1{
+    margin-left: 586;
+}
+
+#valor_2{
+    margin-left: 586;
+}
+
+#botones{
+    margin-left: 495;
+    margin-top: 30;
+}
+
+#boton1{
+    font-size: 18;
+    font-style: italic;
+}
+
+#boton2{
+    font-size: 18;
+    font-style: italic;
+}
+
+#boton3{
+    font-size: 18;
+    font-style: italic;
+}
+
+#boton4{
+    font-size: 18;
+    font-style: italic;
+}
+
+#resultado{
+    text-align: center;
+    background-color: lightseagreen;
+}
