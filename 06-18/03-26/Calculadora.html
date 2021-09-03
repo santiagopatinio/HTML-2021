@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Visual.css">
+        <script src="jquery-3.6.0.js"></script>
+    </head>
+
+    <body>
+        <p id="p">Primer Valor</p>
+        <input type="number" id="valor_1">
+
+        <p id="p">Segundo Valor</p>
+        <input type="number" id="valor_2">
+        <br>
+
+        <div id="botones">
+            <button id="boton1" onclick="sumar()"> Sumar</button>
+            <button id="boton2" onclick="restar()"> Restar</button>
+            <button id="boton3" onclick="dividir()"> Division</button>
+            <button id="boton4" onclick="multiplicar()"> Multiplicacion</button>
+        </div>
+
+        <h1 id="Resultado"></h1>
+
+        <script>
+            function sumar(){
+                var resultado_final = parseInt($("#valor_1").val()) + parseInt($("#valor_2").val());
+                $("#Resultado").html(resultado_final);
+            }
+
+            function restar(){
+                var resultado_final = parseInt($("#valor_1").val()) - parseInt($("#valor_2").val());
+
+                $("#Resultado").html(resultado_final);
+            }
+
+            function dividir(){
+                var resultado_final = parseInt($("#valor_1").val()) / parseInt($("#valor_2").val());
+
+                $("#Resultado").html(resultado_final);
+            }
+
+            function multiplicar(){
+                var resultado_final = parseInt($("#valor_1").val()) * parseInt($("#valor_2").val());
+
+                $("#Resultado").html(resultado_final);
+            }
+        </script>
+
+    </body>
+</html>
