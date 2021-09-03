@@ -1,0 +1,47 @@
+body{
+    background-color: linen;
+}
+
+#nuevosDatos{
+    width: 6cm;
+    height: 30px;
+    margin-left: 15cm;
+    background-color:paleturquoise;
+    font-style: italic;
+}
+
+#ingresar{
+    width: 4cm;
+    height: 30px;
+    margin-left: 16cm;
+    background-color: paleturquoise;
+    font-style: italic;
+    visibility: hidden;
+}
+
+#botonQuery{
+    width: 4cm;
+    margin-left: 16cm;
+}
+
+#decoracion{
+    margin-top: 10px;
+    margin-left: 10.9cm;
+    border-collapse: collapse;
+}
+
+th{
+    text-align: center;
+    background-color:white;
+    border: 1px solid black;
+    width: 176px;
+}
+
+td{
+    text-align: center;
+    background-color:white;
+    border: 1px solid black;
+    width: 176px;
+}
+
+
