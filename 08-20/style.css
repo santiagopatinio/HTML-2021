@@ -1,0 +1,16 @@
+.card{
+    float: left;
+    margin-top: 190px;
+    margin-left: 61px;
+    text-align: center;
+}
+
+input{
+    margin-top: -10px;
+    margin-left: 49px;
+    width: 100px;
+}
+
+body{
+    background-color: #0275d8;
+}
