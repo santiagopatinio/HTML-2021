@@ -1,0 +1,45 @@
+/*Ambos*/
+
+#body{
+    background-color:darkgray;
+}
+
+#cuadro_respuesta_1{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Telefono*/
+#pt{
+    text-align: center;
+    font-size: 22;
+}
+
+#telefono{
+    margin-left: 586;
+}
+
+#bt{
+    margin-top: 20;
+    margin-left: 618;
+    font-style: italic;
+    font-size: 16;
+}
+
+/*Mail*/
+
+#pm{
+    text-align: center;
+    font-size: 22;
+}
+
+#mail{
+    margin-left: 586;
+}
+
+#bm{
+    margin-top: 20;
+    margin-left: 618;
+    font-style: italic;
+    font-size: 16;
+}
