@@ -1,0 +1,22 @@
+/*------NAVBAR------*/
+
+#title{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#months{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*------Trabajos------*/
+
+#alineacion{
+    float: left;
+}
+
+.card-body{
+    text-align: center;
+}
+
+
+
