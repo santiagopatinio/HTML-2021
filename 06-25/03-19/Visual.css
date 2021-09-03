@@ -1,0 +1,46 @@
+#body{
+    background-color:whitesmoke;
+}
+
+#p{
+    font-size: 20;
+    text-align: center;
+}
+
+#nombre{
+    margin-left: 585;
+    margin-bottom: 30;
+}
+
+#apellido{
+    margin-left: 585;
+    margin-bottom: 30;
+}
+
+#edad{
+    margin-left: 585;
+    margin-bottom: 20;
+}
+
+#boton{
+    font-size: 15;
+    background-color: violet;
+    border-color: black;
+    margin-left: 621;
+    margin-bottom: 30;
+}
+
+#cuadro_respuesta_1{
+    text-align: center;
+    font-size: 25;
+}
+
+#cuadro_respuesta_2{
+    text-align: center;
+    font-size: 25;
+}
+
+#cuadro_respuesta_3{
+    text-align: center;
+    font-size: 25;
+}
